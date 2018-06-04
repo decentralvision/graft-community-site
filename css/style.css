@@ -4,7 +4,7 @@
 
 a {
 	  color:  #ffc700;
-
+	  font-weight: 150;
 }
 	
 canvas {
@@ -28,8 +28,6 @@ body{
   font:normal 75% Arial, Helvetica, sans-serif;
   background:#111111;
 }
-
-
 
 #particles-js {
   position: static;
@@ -55,12 +53,23 @@ body{
     font-family: 'BUTTONS', sans-serif;
 
 }
-
+.bold {
+		      font-family: 'SeriousTitle', sans-serif;
+}
+.yellow {
+	color: #FEE900;
+}
+.orange {
+	color: #FEA100;
+}
+.red {
+	color: #ea4423;
+}
 .text2 {
   position: relative;
   color: #fff;
   padding: 0em 0em;
-  background: rgba(153, 153, 153, 0.4);
+  background: rgba(120, 120, 120);
   font-family: 'Open Sans', sans-serif;
   border-radius: 4px;
 }
@@ -104,12 +113,11 @@ p {
   padding-top: 15px;
   padding-right: 15px;
   padding-left: 15px;
-
   font-weight: 100;
   letter-spacing: 0.2px;
   text-align: center;
   color: #FFFBF9;
-  font-family: 'BUTTONS', sans-serif;
+  font-family: 'SeriousSubTitle', sans-serif;
 
 
 }
