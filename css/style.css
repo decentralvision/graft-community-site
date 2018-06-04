@@ -1,0 +1,210 @@
+@font-face { font-family: SeriousTitle; src: url('../fonts/theboldfont.ttf'); }
+@font-face { font-family: SeriousSubtitle; src: url('../fonts/Cocogoose-Condensed-Ultralight-trial.ttf'); }
+@font-face { font-family: Buttons; src: url('../fonts/Roboto-Thin.ttf'); }
+
+
+canvas {
+  display: block;
+  vertical-align: center;
+  background:#111111;
+}
+
+html,body{
+	width:100%;
+	height:100%;
+	background:#111111;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  background:#111111;
+}
+
+body{
+  font:normal 75% Arial, Helvetica, sans-serif;
+  background:#111111;
+}
+
+
+
+#particles-js {
+  position: static;
+  width: 100%;
+  height: 100%;
+  background: #111111;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+  color: #fff;
+  max-width: 70%;
+  min-width: 30%;
+  max-height: 100%;
+  min-height: 10%;
+  padding: 0em 0em;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+    font-family: 'BUTTONS', sans-serif;
+
+}
+
+.text2 {
+  position: relative;
+  color: #fff;
+  padding: 0em 0em;
+  background: rgba(255, 255, 255, 0.3);
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 1.55em;
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #FFFBF9;
+  filter: blur(0.45px);
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: 'SeriousTitle', sans-serif;
+}
+
+li {
+	  font-size: 0.9em;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  filter: blur(0.1px);
+  font-weight: 90;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: #FFFBF9;
+    font-family: 'SeriousSubtitle', sans-serif;
+
+}
+
+ol {
+	  font-size: 0.9em;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  filter: blur(0.1px);
+  font-weight: 90;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #FFFBF9;
+    font-family: 'BUTTONS', sans-serif;
+}
+p {
+  font-size: 1.25em;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  filter: blur(0.2px);
+  font-weight: 100;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #FFFBF9;
+  font-family: 'BUTTONS', sans-serif;
+
+
+}
+
+
+/* BUTTONS */
+/* corner values for bubble up and down */
+
+/* lets create a container and put it in the middle */
+
+
+.ctrl-standard.fx-sliderIn {
+  color: #34435B;
+  border-color: #34435B;
+}
+.ctrl-standard.fx-sliderIn::after {
+  background: #34435B;
+}
+.ctrl-standard.fx-sliderIn.is-reversed::after {
+  width: 300%;
+  filter: blur(0.4px);
+}
+.ctrl-standard.fx-sliderIn.is-reversed:hover {
+  color: #34435B;
+    filter: blur(0.6px);
+}
+.ctrl-standard.fx-sliderIn.is-reversed:hover::after {
+  width: 300%;
+  filter: blur(0.4px);
+}
+[class*="ctrl-"] {
+  padding: 0px 0px;
+
+}
+[class*="ctrl-"][class*="fx-"]:hover,
+[class*="ctrl-"][class*="fx-"].active {
+  color: #FFF;
+}
+[class*="ctrl-"][class*="fx-"].is-reversed {
+  color: #FFF;
+}
+
+  [class*="fx-"],
+[class*="fx-"]:hover {
+    -webkit-transition: color 0.5s  ease-in-out;
+    transition: color 0.5s  ease-in-out;
+  }
+  [class*="fx-"]:not(.fx-dyna) {
+    position: relative;
+    z-index: 1;
+    -webkit-transition-delay: 0.2s !important;
+            transition-delay: 0.2s !important;
+    overflow: hidden;
+  }
+  [class*="fx-"]:not(.fx-dyna)::after,
+[class*="fx-"]:not(.fx-dyna)::before {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+  }
+  [class*="fx-bubble"]::after {
+    -webkit-transition: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+  }
+  [class*="fx-bubble"]:hover::after,
+[class*="fx-bubble"].active::after {
+    -webkit-transition: height 0.5s ease-in-out;
+    transition: height 0.5s ease-in-out;
+    height: 300%;
+  }
+  [class*="fx-bubble"]:disabled:hover::after {
+    height: 0;
+  }
+  .fx-sliderIn::after {
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+  }
+  .fx-sliderIn:hover::after,
+.fx-sliderIn.active::after {
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+    width: 100%;
+  }
+  :checked + .fx-sliderIn::after,
+.fx-sliderIn.active::after {
+    width: 300%;
+  }
