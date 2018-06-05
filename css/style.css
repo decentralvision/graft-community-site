@@ -43,18 +43,18 @@ body{
   -webkit-transform: translate(50%, -50%);
           transform: translate(50%, -50%);
   color: #fff;
-  max-width: 70%;
-  min-width: 30%;
-  max-height: 100%;
+  max-width: 120%;
+  min-width: 20%;
+  max-height: 120%;
   min-height: 10%;
-  padding: 0em 0em;
-  background: rgba(153, 153, 153, 0.6);
+  padding: 25px;
+  background: rgba(153, 153, 153, 0.33);
   border-radius: 10px;
     font-family: 'BUTTONS', sans-serif;
 
 }
 .bold {
-		      font-family: 'SeriousTitle', sans-serif;
+	font-family: 'SeriousTitle', sans-serif;
 }
 .yellow {
 	color: #FEE900;
@@ -66,12 +66,7 @@ body{
 	color: #ea4423;
 }
 .text2 {
-  position: relative;
-  color: #fff;
-  padding: 0em 0em;
-  background: rgba(120, 120, 120);
-  font-family: 'Open Sans', sans-serif;
-  border-radius: 4px;
+	
 }
 
 h1 {
@@ -79,27 +74,24 @@ h1 {
   font-weight: 500;
   letter-spacing: 2px;
   color: #FFFBF9;
-
   padding-right: 15px;
   padding-left: 15px;
-    padding-top: 7px;
   font-family: 'SeriousTitle', sans-serif;
 }
 
 li {
-	  font-size: 0.9em;
+  font-size: 1em;
   padding-right: 15px;
   padding-left: 15px;
-  padding-top: 2px;
+  padding-top: 15px;
   font-weight: 90;
   text-align: left;
-
-    font-family: 'SeriousSubtitle', sans-serif;
+  font-family: 'SeriousSubtitle';
 
 }
 
 ol {
-	  font-size: 1em;
+  font-size: 1em;
   padding-right: 15px;
   padding-left: 15px;
   padding-top: 10px;
@@ -118,8 +110,6 @@ p {
   text-align: center;
   color: #FFFBF9;
   font-family: 'SeriousSubTitle', sans-serif;
-
-
 }
 
 

@@ -47,6 +47,13 @@ img {
   max-width: 100%;
   border: 0;
 }
+img.profilepic {
+border-radius: 15px;
+width:80px;
+height:95px; 
+padding: 8px;
+float:left;
+}
 img.static {
   max-width: none;
   width: auto;
