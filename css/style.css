@@ -37,7 +37,7 @@ body{
 }
 
 .blur{
-	filter: blur(0.25px);
+	filter: blur(0.1px);
 }
 
 .text {
@@ -78,7 +78,7 @@ body{
 
 h1 {
   font-size: 1.55em;
-  filter: blur(0.4px);
+  filter: blur(0.25px);
   letter-spacing: 4px;
   color: #FFFBF9;
   padding-right: 15px;
@@ -87,12 +87,11 @@ h1 {
 }
 
 h4 {
-  font-size: 1em;
+  font-size: 1.19em;
   padding: 10px;
-  font-weight: 90;
+  font-weight: 5000;
   text-align: left;
   font-family: 'SeriousSubtitle';
-  filter: blur(0.4px);
 }
 h5 {
   font-size: 1.25em;
@@ -104,22 +103,20 @@ h5 {
   }
 
 li {
-  text-align: center;
+  text-align: left;
   list-style-type: circle;
-
   list-style-position: inside;
 }
 
 ul {
-  font-size: 12px;
-  letter-spacing: 0.2px;
+  font-size: 13px;
   text-align: left;
   color: #FFFBF9;
   font-family: 'Buttons', sans-serif;
 }
 ol {
   font-size: 12px;
-  text-align: center;
+  text-align: left;
   color: #FFFBF9;
   font-family: 'Buttons', sans-serif;
   padding: 5px;
